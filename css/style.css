@@ -15,10 +15,7 @@
 .container {
     width: 80%;
     max-width: 1280px;
-    /*cancellare*/
-    height: 200px;
     margin: 0 auto;
-    /* background-color: yellow; */
 }
 
 header {
@@ -46,11 +43,16 @@ nav {
     line-height: 70px;
 }
 
-nav ul {
+nav .ul-sx {
     height: 100%;
-    float left;
-
+    float: left;
 }
+
+nav .ul-dx{
+    height: 100%;
+    float: right;
+}
+
 
 nav li {
     display: inline-block;
@@ -63,17 +65,14 @@ nav li a:link {
     color: white;
 }
 
-.head-dx {
-    height: 100%;
-    float: left;
-}
-
 button.trasp {
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0);
     padding: 10px 20px;
     border: 1px solid #4783ac;
     border-radius: 7px;
+    cursor: pointer;
+    color: white;
 }
 
 button.pieno {
@@ -81,5 +80,49 @@ button.pieno {
     background-color: #7fb802;
     padding: 10px;
     border-radius: 7px;
-    border-color: #7fb802;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+/* .banner {
+    background-image: url('../img/oldman.png');
+    background-size: contain;
+    background-position: right;
+} */
+
+.banner .head-scatole {
+    width: 50%;
+    height: 400px;
+    float: left;
+    position: relative;
+}
+
+.head-scatole img {
+    width: 120%;
+    object-position: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.banner .box {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.banner button {
+    text-transform: uppercase;
+    background-color: #7fb802;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
 }
