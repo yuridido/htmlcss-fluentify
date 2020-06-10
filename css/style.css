@@ -24,10 +24,11 @@
 header {
     background-color: #0d325a;
     color: white;
+    font-size: 16px;
 }
 
 header .container {
-    padding-top: 20px;
+    padding-top: 16px;
 }
 
 .head-dx {
@@ -62,4 +63,23 @@ nav li a:link {
     color: white;
 }
 
-button 
+.head-dx {
+    height: 100%;
+    float: left;
+}
+
+button.trasp {
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 20px;
+    border: 1px solid #4783ac;
+    border-radius: 7px;
+}
+
+button.pieno {
+    text-transform: uppercase;
+    background-color: #7fb802;
+    padding: 10px;
+    border-radius: 7px;
+    border-color: #7fb802;
+}
