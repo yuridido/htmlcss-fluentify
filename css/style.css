@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    max-width: 1280px;
+    /*cancellare*/
+    height: 200px;
+    margin: 0 auto;
+    /* background-color: yellow; */
+}
+
+header {
+    background-color: #0d325a;
+    color: white;
+}
+
+header .container {
+    padding-top: 20px;
+}
+
+.head-dx {
+    float: right;
+}
+
+#logo {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+nav {
+    height: 70px;
+    text-transform: uppercase;
+    line-height: 70px;
+}
+
+nav ul {
+    height: 100%;
+    float left;
+
+}
+
+nav li {
+    display: inline-block;
+    float: left;
+    margin: 0 10px;
+}
+
+nav li a:link {
+    text-decoration: none;
+    color: white;
+}
+
+button 
